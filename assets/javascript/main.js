@@ -21,6 +21,7 @@ $(document).ready(function () {
          url: queryURL,
          method: "GET"
      }).then(function (response) {
+    
          // Storing an array of results in the results variable
          var results = response.data;
          console.log(results)
