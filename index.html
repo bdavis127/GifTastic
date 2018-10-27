@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Band Aid</title>
+    <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <!--Bootstrap and CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style/style.css">
 </head>
 
 <body>
-
+    <!--Band Aid Header-->
     <div class="jumbotron jumbotron-fluid" id="jheader">
         <div class="container">
             <h1 class="display-4">Band Aid</h1>
@@ -22,32 +24,32 @@
         </div>
     </div>
 
-    <div class="image1">
-        <img src="assets/images/mmyersguitar.jpg"></div>
+    <div class="images">
+        <!--I first tried to wireframe the images, then found out that CSS flexbox made for much more efficient code, which is why the extra divs are commented out-->
+        <!--div class="image1"-->
+            <img src="assets/images/mmyersguitar.jpg">
+        <!--/div-->
+
+        <!--div class="image2"-->
+            <img src="assets/images/beatles.jpg">
+        <!--/div-->
+
+        <!--div class="image3"-->
+            <img src="assets/images/ghostinterview.jpg">
+        <!--/div-->
+
+        <!--div class="image4"-->
+            <img src="assets/images/kiss.jpg">
+        <!--/div-->
+
+        <!--div class="image5"-->
+            <img src="assets/images/favband.jpg">
+        <!--/div-->
+            <img src="assets/images/jimmypage.jpg">
     </div>
 
-    <div class="image2">
-        <img src="assets/images/jimmypage.jpg"></div>
-    </div>
-
-    <!--div class="image3">
-            <img src="assets/images/ghostinterview.jpg"></div>
-    </div-->
-
-    <div class="image4">
-        <img src="assets/images/kiss.jpg"></div>
-    </div>
-
-    <div class="image5">
-            <img src="assets/images/favband.jpg"></div>
-        </div>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    
     <div class="container">
         <h1>Band Search</h1>
 
@@ -67,11 +69,13 @@
         <div id="gifs-appear-here">
         </div>
 
-
+        <!--JQuery and Javascript links-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="assets/javascript/main.js"></script>
 
         <script>
+            // I originally had the .js code on my html file because I couldn't get it working in a separate file, but was
+            // then able to debug the code to get it working correctly
             // // Array of bands 
             // var bands = ["Devo", "Dead Kennedys", "Metallica", "System of a Down"];
 
@@ -166,7 +170,7 @@
             // renderButtons();
 
 
-        
+
 
         </script>
 

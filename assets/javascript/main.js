@@ -28,6 +28,9 @@ $(document).ready(function () {
          for (let i = 0; i < results.length; i++) {
              const element = results[i];
          // <img src = "image.jpg" alt = "image1">
+                  
+         var gifDiv  = $("<div>");
+
          var imageDiv =  $("<img>");
          imageDiv.attr("src", element.images.fixed_width_still.url) 
          imageDiv.attr("alt", band)
@@ -35,7 +38,16 @@ $(document).ready(function () {
          imageDiv.attr("stillImage", element.images.fixed_width_still.url)
          imageDiv.attr("currentState", "still")
          imageDiv.addClass("bandName")
-         $("#gifs-appear-here").append(imageDiv);
+
+         gifDiv.append(imageDiv);
+
+         var ratingDiv = $("<p>");
+         ratingDiv.text(element.rating)
+
+         gifDiv.append(ratingDiv);
+
+         $("#gifs-appear-here").append(gifDiv);
+
          }
 
      })
