@@ -25,6 +25,8 @@ $(document).ready(function () {
          // Storing an array of results in the results variable
          var results = response.data;
          console.log(results)
+         //Deletes Gifs prior to entering new ones
+         $("#gifs-appear-here").empty();
          for (let i = 0; i < results.length; i++) {
              const element = results[i];
          // <img src = "image.jpg" alt = "image1">
@@ -47,6 +49,7 @@ $(document).ready(function () {
          gifDiv.append(ratingDiv);
 
          $("#gifs-appear-here").append(gifDiv);
+         
 
          }
 
