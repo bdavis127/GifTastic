@@ -43,14 +43,6 @@ Create an app that interacts with the GIPHY API site to create GIFs related to a
 
   * **GIPHY** (https://developers.giphy.com/)
 
-**NPM Packages:**
-
-  * **Node-Spotify-API** (https://www.npmjs.com/package/node-spotify-api)
-  * **Axios** (https://www.npmjs.com/package/axios)
-  * **Moment** (https://www.npmjs.com/package/moment)
-  * **DotEnv** (https://www.npmjs.com/package/dotenv)
-
-   
 ## Prerequisites
 
 - Become familiar with the GIPHY API.
