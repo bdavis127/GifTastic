@@ -1,5 +1,5 @@
 # Project: Band-Aid
-Gifs of different bands
+**Band-Aid** is an app that lets you look up GIFs of different bands.
 
 ![](https://github.com/bdavis127/GifTastic/blob/master/assets/images/BandAid.PNG)
 
@@ -9,17 +9,15 @@ Live Link: https://bdavis127.github.io/Band-Aid/
 
 
 
-**Band-Aid** is an app that lets you look up GIFs of different bands. 
-
 
 ## Overview
 
 Band-Aid works by simply typing in your band of choice and viewing the GIFs.  Here's how it works:
 1. Type the band into the search bar where it says **"ADD A BAND, DUDE!"** just below the **BAND SEARCH**.
 2. Click the **ADD A BAND, DUDE!** button.
-
-LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a _Language_ Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives data in return.
-
+3. A button for your band is then created in the **BAND SEARCH**.
+4. Click the button for your band, and the band GIFs will appear below.  If you don't see your GIFs, just scroll down to the bottom
+   of your screen.
 
 ## Challenge
 
