@@ -21,30 +21,27 @@ Band-Aid works by simply typing in your band of choice and viewing the GIFs.  He
 
 ## Challenge
 
-Use Node JS to create a LIRI bot, like iPhone's SIRI, but takes in commands through Language vs Speech using the following commands:
-
-   * `concert-this`
-
-   * `spotify-this-song`
-
-   * `movie-this`
-
-   * `do-what-it-says`
-   
-   
+Create an app that interacts with the GIPHY API site to create GIFs related to a topic that is interesting to you.
+    
 ## Tech
 
 **GitHub** - file repository
 
 **Visual Studio Code** - text editor
 
-**Node.js**
+**Languages:**
+
+**HTML**
+
+**CSS**
+
+**JavaScript**
+
+**JQuery**
 
 **APIs:**
 
-  * **Spotify** (https://developer.spotify.com/)
-  * **OMDB** (http://www.omdbapi.com) 
-  * **Bands In Town** (http://www.artists.bandsintown.com/bandsintown-api)
+  * **GIPHY** (https://developers.giphy.com/)
 
 **NPM Packages:**
 
