@@ -42,15 +42,7 @@ Create an app that interacts with the GIPHY API site to create GIFs related to a
 **API:**
 
   * **GIPHY** (https://developers.giphy.com/)
-
-**NPM Packages:**
-
-  * **Node-Spotify-API** (https://www.npmjs.com/package/node-spotify-api)
-  * **Axios** (https://www.npmjs.com/package/axios)
-  * **Moment** (https://www.npmjs.com/package/moment)
-  * **DotEnv** (https://www.npmjs.com/package/dotenv)
-
-   
+  
 ## Prerequisites
 
 - Become familiar with the GIPHY API.
@@ -68,6 +60,8 @@ Create an app that interacts with the GIPHY API site to create GIFs related to a
 1. Create an array of strings, each one related to a topic that is interesting to you, and save it to a variable called **topics**. 
 
 2. App should take the topics in the array and create buttons in your HTML. 
+
+   - Try using a loop that appends a button for each string in the array.
 
 3. When user clicks on a button, the page should grab 10 static, non-animated GIF images from the GIPHY API and place them on the page.
 
