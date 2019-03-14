@@ -61,6 +61,8 @@ Create an app that interacts with the GIPHY API site to create GIFs related to a
 
 2. App should take the topics in the array and create buttons in your HTML. 
 
+   - Try using a loop that appends a button for each string in the array.
+
 3. When user clicks on a button, the page should grab 10 static, non-animated GIF images from the GIPHY API and place them on the page.
 
 4. When user clicks one of the still GIPHY images, the gif should animate.  If the user clicks again, it should stop playing.
