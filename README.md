@@ -53,11 +53,14 @@ Create an app that interacts with the GIPHY API site to create GIFs related to a
    
 ## Prerequisites
 
-- Node.js - download the latest version of Node (https://nodejs.org/en/).
+- Become familiar with the GIPHY API.
 
-- Make a new GitHub repository called **liri-node-app** and clone it to your computer.
+- Read about the following GIPHY parameters:
+   - q
+   - limit
+   - rating
 
-- Send requests using the `axios` package to the Bands in Town, Spotify and OMDB APIs.
+- Obtain a GIPHY API key.
 
   
 ## What Each Command Does
