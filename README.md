@@ -21,7 +21,7 @@ Band-Aid works by simply typing in your band of choice and viewing the GIFs.  He
 
 ## Challenge
 
-Create an app that interacts with the GIPHY API site to create GIFs related to a topic that is interesting to you.
+Create an app that interacts with the GIPHY API site to create GIFs related to a specific topic of interest.
     
 ## Tech
 
@@ -39,7 +39,7 @@ Create an app that interacts with the GIPHY API site to create GIFs related to a
 
 **JQuery**
 
-**APIs:**
+**API:**
 
   * **GIPHY** (https://developers.giphy.com/)
 
@@ -63,58 +63,15 @@ Create an app that interacts with the GIPHY API site to create GIFs related to a
 - Obtain a GIPHY API key.
 
   
-## What Each Command Does
+## Instructions
 
-**LIRI** searches **Bands in Town** for concerts, **Spotify** for songs, and **OMDB** for movies.
+1. Create an array of strings, each one related to a topic that is interesting to you, and save it to a variable called **topics**. 
 
-1. **`node liri.js concert-this '<artist/band name here>'`**
+2. App should take the topics in the array and create buttons in your HTML. 
 
-   * Searches the Bands in Town Artist Events API for an artist and renders the following information about each event to the terminal:
+3. When user clicks on a button, the page should grab 10 static, non-animated GIF images from the GIPHY API and place them on the page.
 
-     * Name of the venue
+4. When user clicks one of the still GIPHY images, the gif should animate.  If the user clicks again, it should stop playing.
 
-     * Venue location
+5. Under every GIF, display its rating (PG, G, etc.)
 
-     * Date of the Event (using the format "MM/DD/YYYY")
-
-2. **`node liri.js spotify-this-song '<song name here>'`**
-
-   * Displays the following information about the selected song in your terminal/bash window
-
-     * Artist(s)
-
-     * The song's name
-
-     * A preview link of the song from Spotify
-
-     * The album containing the song
-
-   * If no song is provided, the program defaults to "The Sign" by Ace of Base.
-
-3. **`node liri.js movie-this '<movie name here>'`**
-
-   * This will output the following movie information to your terminal/bash window:
-
-     ```
-       * Title
-       * Year movie was released
-       * IMDB Rating
-       * Rotten Tomatoes Rating
-       * Country where movie was produced
-       * Language(s)
-       * Plot of the movie
-       * Actors in the movie
-     ```
-
-   * If the user does not enter a movie selection, the program outputs data for the movie 'Mr. Nobody.'
-
-4. **`node liri.js do-what-it-says`**
-
-     * Runs `spotify-this-song` for "I Want it That Way".
-     
-
-## Demonstration Video
-     
-To see a YouTube video demonstrating how Liri works, just click on the following link:
-
-https://youtu.be/yzqoh0124zo
