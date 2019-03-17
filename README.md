@@ -3,7 +3,6 @@
 
 ![](https://github.com/bdavis127/GifTastic/blob/master/assets/images/BandAid.PNG)
 
-Live Link: https://bdavis127.github.io/Band-Aid/
 
 
 
@@ -68,4 +67,9 @@ Create an app that interacts with the GIPHY API site to create GIFs related to a
 4. When user clicks one of the still GIPHY images, the gif should animate.  If the user clicks again, it should stop playing.
 
 5. Under every GIF, display its rating (PG, G, etc.)
+
+## Live Link
+
+https://bdavis127.github.io/Band-Aid/
+
 
